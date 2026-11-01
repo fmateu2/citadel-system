@@ -1,0 +1,15 @@
+[Stark] $ LIST REALMS
+[Stark] $ ENVOY STATUS
+[Stark] $ PLEDGE Lannister stark.png
+[Lannister] $ PLEDGE RESPOND Stark ACCEPT
+[Stark] Alliance with Lannister forged successfully!
+[Stark] $ LIST PRODUCTS Lannister
+[Stark] $ START TRADE Lannister
+[Stark] $ ADD Golden Lion Statuette 1
+[Stark] $ SEND
+[Stark] Order accepted by Lannister. Stock updated.
+[Check] Sender and receiver inventories persisted the expected quantities.
+[Stark] $ EXIT
+[Lannister] $ EXIT
+[Check] Both realm processes exited successfully.
+PASS: startup, envoys, alliance/file transfer, remote products, trade persistence and shutdown.

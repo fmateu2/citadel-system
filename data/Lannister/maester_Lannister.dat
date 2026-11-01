@@ -1,0 +1,10 @@
+Lannister
+data/Lannister
+3
+127.0.0.1
+8891
+--- ROUTES ---
+Stark 127.0.0.1 8890
+Targaryen 127.0.0.1 8892
+Greyjoy 127.0.0.1 8893
+DEFAULT 127.0.0.1 8893
